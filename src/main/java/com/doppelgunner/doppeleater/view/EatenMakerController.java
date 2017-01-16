@@ -102,6 +102,7 @@ public class EatenMakerController {
         getEatenService.setNumber(100);
         getEatenService.setOnSucceeded(t -> {
             Result<EatenRecord> result = (Result<EatenRecord>)t.getSource().getValue();
+            if (result == null) return;
             for (EatenRecord eatenRecord : result) {
                 Eaten eaten = Eaten.createEaten(eatenRecord);
                 Node cardNode = Creator.createCard(eaten);

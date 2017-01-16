@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="DoppelEater">
+    <output-path>$PROJECT_DIR$/out/artifacts/DoppelEater</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.doppelgunner.doppeleater.DoppelEater" />
+        <option name="description" value="A software to keep track of foods eaten" />
+        <option name="htmlParamFile" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="paramFile" value="" />
+        <option name="title" value="DoppelEater" />
+        <option name="vendor" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="DoppelEater.jar">
+        <element id="module-output" name="DoppelEater" />
+        <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
+      </element>
+      <element id="library" level="project" name="Gradle: io.datafx:core:8.0.1" />
+      <element id="library" level="project" name="Gradle: org.xerial:sqlite-jdbc:3.7.2" />
+      <element id="library" level="project" name="Gradle: io.datafx:flow:8.0.1" />
+      <element id="library" level="project" name="jfoenix" />
+      <element id="library" level="project" name="JOOQ-3.9.0" />
+      <element id="library" level="project" name="datafx_local" />
+      <element id="library" level="project" name="Gradle: junit:junit:4.11" />
+      <element id="library" level="project" name="Gradle: org.hamcrest:hamcrest-core:1.3" />
+    </root>
+  </artifact>
+</component>

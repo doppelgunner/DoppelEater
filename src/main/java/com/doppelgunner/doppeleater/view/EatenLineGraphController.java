@@ -23,7 +23,7 @@ import javax.annotation.PostConstruct;
  * Created by robertoguazon on 12/01/2017.
  */
 
-@ViewController("eatenLineGraph.fxml")
+@ViewController("EatenLineGraph.fxml")
 public class EatenLineGraphController {
 
     @ViewNode
