@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+
+<Label alignment="CENTER" prefHeight="99.0" prefWidth="205.0" text="2: WILL" textAlignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <font>
+      <Font size="23.0" />
+   </font>
+</Label>

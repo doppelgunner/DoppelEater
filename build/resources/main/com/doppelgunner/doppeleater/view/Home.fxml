@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="127.0" prefWidth="270.0" text="TEMPORARY HOME">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" spacing="30.0">
+               <children>
+                  <JFXButton fx:id="profileButton" buttonType="RAISED" onAction="#goToProfile" prefHeight="87.0" prefWidth="117.0" ripplerFill="#838383" style="-fx-background-color: black;" text="Profile" textFill="WHITE" />
+                  <JFXButton fx:id="eatenButton" buttonType="RAISED" layoutX="252.0" layoutY="230.0" onAction="#goToEaten" prefHeight="87.0" prefWidth="117.0" ripplerFill="#838383" style="-fx-background-color: black;" text="Eaten" textFill="WHITE" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

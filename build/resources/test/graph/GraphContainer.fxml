@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Label fx:id="containerLabel" prefHeight="77.0" text="Container name" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <StackPane fx:id="centerPane" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <HBox prefHeight="57.0" prefWidth="600.0" spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton fx:id="lineButton" prefHeight="58.0" prefWidth="88.0" ripplerFill="#f5f5f5" style="-fx-background-color: #ae3232;" text="Line" textFill="WHITE" />
+            <JFXButton fx:id="pieButton" layoutX="10.0" layoutY="10.0" prefHeight="58.0" prefWidth="88.0" ripplerFill="#f5f5f5" style="-fx-background-color: #ae3232;" text="Pie" textFill="WHITE" />
+            <JFXButton fx:id="barButton" layoutX="98.0" layoutY="10.0" prefHeight="58.0" prefWidth="88.0" ripplerFill="#f5f5f5" style="-fx-background-color: #ae3232;" text="Bar" textFill="WHITE" />
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

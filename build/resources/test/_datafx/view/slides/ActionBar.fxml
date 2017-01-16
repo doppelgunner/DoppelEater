@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox alignment="CENTER" prefHeight="54.0" prefWidth="303.0" spacing="10.0" style="-fx-background-color: #ccc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Hyperlink fx:id="help" text="?">
+         <HBox.margin>
+            <Insets right="20.0" />
+         </HBox.margin>
+      </Hyperlink>
+      <JFXButton fx:id="backButton" buttonType="RAISED" ripplerFill="#2b156f" style="-fx-background-color: #fff;" text="Back" textAlignment="CENTER" />
+      <JFXButton fx:id="nextButton" buttonType="RAISED" layoutX="10.0" layoutY="10.0" ripplerFill="#2b156f" style="-fx-background-color: #fff;" text="Next" textAlignment="CENTER" />
+      <JFXButton fx:id="finishButton" buttonType="RAISED" layoutX="51.0" layoutY="10.0" ripplerFill="#2b156f" style="-fx-background-color: #fff;" text="Finish" textAlignment="CENTER" />
+   </children>
+</HBox>

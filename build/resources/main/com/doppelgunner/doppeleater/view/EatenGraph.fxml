@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+
+<StackPane fx:id="root" prefHeight="393.0" prefWidth="502.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <BorderPane fx:id="mainBorderPane" prefHeight="200.0" prefWidth="200.0">
+            <top>
+                <HBox prefHeight="48.0" prefWidth="406.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <JFXButton fx:id="eatenButton" layoutX="10.0" layoutY="10.0" onAction="#eaten" prefHeight="54.0" prefWidth="83.0" text="EATEN" />
+                        <JFXComboBox fx:id="dateComboBox" prefHeight="48.0" prefWidth="122.0" promptText="DATE" />
+                        <JFXComboBox fx:id="graphComboBox" layoutX="93.0" layoutY="10.0" prefHeight="48.0" prefWidth="122.0" promptText="GRAPH" />
+                    </children>
+                </HBox>
+            </top>
+        </BorderPane>
+    </children>
+</StackPane>

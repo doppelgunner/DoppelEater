@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="138.0" prefWidth="213.0" text="DYNAMIC3" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </center>
+</BorderPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="root" prefHeight="393.0" prefWidth="502.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <top>
+            <HBox prefHeight="48.0" prefWidth="406.0" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXButton fx:id="refreshButton" layoutX="10.0" layoutY="10.0" onAction="#refresh" prefHeight="54.0" prefWidth="83.0" text="REFRESH" />
+                  <JFXButton fx:id="graphButton" layoutX="93.0" layoutY="10.0" onAction="#graph" prefHeight="54.0" prefWidth="83.0" text="GRAPH" />
+                  <JFXButton fx:id="addEatenButton" onAction="#addEaten" prefHeight="54.0" prefWidth="83.0" text="ADD" />
+               </children>
+            </HBox>
+         </top>
+         <center>
+            <ScrollPane fx:id="scrollPane" fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" pannable="true" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</StackPane>

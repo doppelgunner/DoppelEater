@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="259.0" prefWidth="210.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="0.0" prefWidth="213.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fx:id="imageView" fitHeight="82.0" fitWidth="210.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets top="30.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+      <Label fx:id="titleLabel" alignment="CENTER" prefHeight="87.0" prefWidth="210.0" style="-fx-background-color: black; -fx-text-fill: white;" VBox.vgrow="ALWAYS" />
+      <Label fx:id="descLabel" alignment="TOP_LEFT" layoutX="10.0" layoutY="93.0" prefHeight="124.0" prefWidth="210.0" style="-fx-background-color: white; -fx-text-fill: black;" VBox.vgrow="ALWAYS" />
+   </children>
+</VBox>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+
+<BarChart fx:id="barChart" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <xAxis>
+    <NumberAxis side="BOTTOM" fx:id="agoAxis" label="Ago"/>
+  </xAxis>
+  <yAxis>
+    <NumberAxis side="LEFT" fx:id="eatenCountAxis" label = "Eat Count"/>
+  </yAxis>
+</BarChart>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="185.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="67.0" prefWidth="559.0">
+         <children>
+            <JFXTextField fx:id="usernameTextField" labelFloat="true" promptText="Username" />
+            <JFXPasswordField fx:id="passwordTextField" labelFloat="true" promptText="Password" />
+         </children>
+      </HBox>
+      <JFXButton fx:id="loginButton" onAction="#login" prefHeight="70.0" prefWidth="100.0" text="Login" />
+   </children>
+   <padding>
+      <Insets top="20.0" />
+   </padding>
+</VBox>

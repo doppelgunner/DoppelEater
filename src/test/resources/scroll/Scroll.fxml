@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <ScrollPane fx:id="scrollPane" fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" prefHeight="249.0" prefViewportHeight="400.0" prefViewportWidth="600.0" prefWidth="402.0">
+         <content>
+            <FlowPane fx:id="boxFlowPane" prefHeight="317.0" prefWidth="456.0" BorderPane.alignment="CENTER" />
+         </content>
+      </ScrollPane>
+   </center>
+   <top>
+      <Button fx:id="addButton" mnemonicParsing="false" onAction="#add" text="Add" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>

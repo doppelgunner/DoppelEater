@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="root" prefHeight="490.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <BorderPane prefHeight="200.0" prefWidth="200.0">
+            <top>
+                <VBox prefHeight="77.0" prefWidth="615.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <JFXToolbar>
+                            <left>
+                        <HBox alignment="CENTER">
+                           <children>
+                              <JFXRippler layoutX="10.0" layoutY="10.0" prefHeight="77.0" prefWidth="182.0">
+                                 <children>
+                                    <StackPane prefHeight="77.0" prefWidth="118.0">
+                                       <children>
+                                          <HBox fx:id="userHBox" alignment="CENTER" prefHeight="77.0" prefWidth="182.0" spacing="10.0" style="-fx-background-color: #ccc;">
+                                             <children>
+                                                <ImageView fx:id="userImageView" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="userLabel" text="Guest" />
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </StackPane>
+                                 </children>
+                              </JFXRippler>
+                              <JFXButton fx:id="homeButton" buttonType="RAISED" prefHeight="77.0" prefWidth="77.0" ripplerFill="BLACK" />
+                           </children>
+                        </HBox>
+                            </left>
+                            <right>
+                                <JFXTextField fx:id="searchTextField" labelFloat="true" maxWidth="193.0" minWidth="193.0" onAction="#search" prefHeight="31.0" prefWidth="193.0" promptText="Search for eaters/eatens" BorderPane.alignment="CENTER">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </JFXTextField>
+                            </right>
+                        </JFXToolbar>
+                    </children>
+                </VBox>
+            </top>
+            <center>
+                <JFXDrawer fx:id="centerDrawer" BorderPane.alignment="CENTER" />
+            </center></BorderPane>
+        <JFXPopup fx:id="centerPopup" prefHeight="0.0" prefWidth="0.0" />
+    </children>
+</StackPane>
