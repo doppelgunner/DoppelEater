@@ -5,6 +5,8 @@ A software to keep track of foods eaten by the user
 * Theme: food or lights on - start on January 1, 2016 end before school starts
 * Status: challenge completed
 
+* Releases (exe or jar file): https://github.com/doppelgunner/DoppelEater/releases
+
 <hr>
 * My Accounts 
   * [blogspot](http://doppelgunner.blogspot.com/)
