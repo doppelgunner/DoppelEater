@@ -6,6 +6,8 @@ A software to keep track of foods eaten by the user
 * Status: challenge completed
 
 * Releases (exe or jar file): https://github.com/doppelgunner/DoppelEater/releases
+* Youtube demo: https://youtu.be/MBfGfxw7n2E
+* Process: https://youtu.be/Q2knteehtiY
 
 <hr>
 * My Accounts 
