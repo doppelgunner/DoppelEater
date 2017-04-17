@@ -9,8 +9,7 @@ A software to keep track of foods eaten by the user
 * Youtube demo: https://youtu.be/MBfGfxw7n2E
 * Process: https://youtu.be/Q2knteehtiY
 
-<hr>
-* My Accounts 
+### My Accounts 
   * [blogspot](http://doppelgunner.blogspot.com/)
   * [instagram](https://www.instagram.com/doppelgunner/)
   * [twitter](https://twitter.com/doppelgunner)
